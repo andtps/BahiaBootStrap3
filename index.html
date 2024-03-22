@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+    "
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Waterfall&display=swap" rel="stylesheet">
+    <style>
+      #BahiaLogo {
+        width: 100px;
+      }
+
+      body {
+        background-image: url("Imagens/BahiaTorcidaBackground.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        backdrop-filter: blur(2px); /* Aplica o efeito de blur */
+
+        
+      }
+      .container{
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      #line{
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid white;
+      }
+
+      #slogan{
+        text-align: center;
+        color: red;
+        font-family: "Waterfall", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 90px;
+      }
+
+      #carousel{
+      }
+
+      #carousel img{
+        width: 100%;
+      }
+      #carousel-img-1{
+        height: 490px;
+      }
+      #historia-text{
+        font-size: 19px;
+        font-weight: 400;
+      }
+      #nav-elenco{
+        width: 100%;
+        height: 260px;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5);;
+        border-radius: 10px;
+      }
+      #button-elenco{
+        width: 90%;
+        margin: 0 auto 0 auto;
+      }
+
+      @media (min-width: 1024px){
+        #mobile-view{
+          display: none;
+        }
+      }
+
+      @media (max-width: 1024px){
+        #Históra{
+          display: none;
+        }
+
+        #texto{
+          width: 100%;
+          background-color:rgba(0, 0, 0, 0.5);
+          border-radius: 10px;
+          height: 100%;
+        }
+      }
+    </style>
+    <title>Esporte Clube Bahia</title>
+  </head>
+  <body>
+    <header class="pt-5">
+      <div class="container d-flex">
+        <img
+          id="BahiaLogo"
+          src="Imagens/ECBahia.png"
+          alt="Escudo Esporte Clube Bahia"
+        />
+        <div class="nav">
+            <nav>
+              <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class=" fs-2 nav-link text-white" href="#">Históra</a>
+                </li class="nav-item">
+                <li class="nav-item">
+                  <a class="fs-2 nav-link text-white" href="#">Elenco</a>
+                </li>
+                <li class="nav-item">
+                  <a class="fs-2 nav-link text-white" href="#">Sórcio Torcedor</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+      </div>
+    </header>
+    <div class="container">
+        <div id="line" class="pt-5">
+            <span><h3 class="d-none" id="slogan">Ninguém nos vence em vibração</h3></span>
+        </div>
+    </div>
+    <section id="Históra" class="mt-5">
+        <div class="container">
+            <h2 id="historia-text" class="text-center fs-1 pb-5 text-white">História</h2>
+            <div id="historia-div" class="row">
+                <div class="col-7">
+                    <div id="carousel-mobile" class="carousel slide ">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img id="carousel-img-1" src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2014/01/e-c-bahia-campeao-brasileiro-de-1988.jpg" class="d-block rounded" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://imortaisdofutebol.com/wp-content/uploads/2019/11/lossy-page1-1024px-Time_do_Bahia_na_Ta%C3%A7a_Brasil-e1574873676913.jpg" class="d-block rounded-1" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-mobile" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-mobile" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col-5">
+                    <div>
+                      <p id="historia-text" class="text-white">loremLorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quo soluta quisquam sequi magnam dolores, autem molestiae magni aliquam aspernatur, eligendi quae ipsam, commodi libero omnis facere officia a repellat.Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo alias natus! Totam consequuntur voluptatum ex corrupti repellendus porro, est neque animi laborum, culpa fuga modi omnis, unde exercitationem illo.Lorem ipsum dolor sit amet consectetur adipisicing elit. At atque quo eaque asperiores perferendis, optio explicabo sunt libero voluptates placeat consequuntur totam adipisci, temporibus nostrum facere aspernatur quibusdam impedit sint?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa nisi velit, aspernatur ea perferendis dicta tempore recusandae doloribus obcaecati aut quia, nihil facilis quaerat ratione sint pariatur nostrum aperiam est?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, ratione ullam? Labore, aut quidem. Odit voluptates quo laudantium rerum necessitatibus enim natus? Aliquid saepe natus reprehenderit, laboriosam voluptatem dolorem accusantium!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="mobile-view">
+      <div class="container">
+        <h2 id="historia-text" class="text-center fs-1 pb-5 text-white">História</h2>
+        <div id="historia-div" class="row">
+                <div id="carousel" class="carousel slide ">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img id="carousel-img-1" src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2014/01/e-c-bahia-campeao-brasileiro-de-1988.jpg" class="d-block rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://imortaisdofutebol.com/wp-content/uploads/2019/11/lossy-page1-1024px-Time_do_Bahia_na_Ta%C3%A7a_Brasil-e1574873676913.jpg" class="d-block rounded-1" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                <div id="texto" class="mt-3">
+                  <p id="historia-text" class="text-white text-align-center">loremLorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quo soluta quisquam sequi magnam dolores, autem molestiae magni aliquam aspernatur, eligendi quae ipsam, commodi libero omnis facere officia a repellat.Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo alias natus! Totam consequuntur voluptatum ex corrupti repellendus porro, est neque animi laborum, culpa fuga modi omnis, unde exercitationem illo.Lorem ipsum dolor sit amet consectetur adipisicing elit. At atque quo eaque asperiores perferendis, optio explicabo sunt libero voluptates placeat consequuntur totam adipisci, temporibus nostrum facere aspernatur quibusdam impedit sint?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa nisi velit, aspernatur ea perferendis dicta tempore recusandae doloribus obcaecati aut quia, nihil facilis quaerat ratione sint pariatur nostrum aperiam est?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, ratione ullam? Labore, aut quidem. Odit voluptates quo laudantium rerum necessitatibus enim natus? Aliquid saepe natus reprehenderit, laboriosam voluptatem dolorem accusantium!</p>
+                </div>
+    </section>
+    <section id="Elenco">
+        <div class="container">
+        <div id="line" class="pt-5">
+            <span></span>
+        </div>
+            <h2 class="text-white text-center mt-5 mb-5 fs-1">Elenco 2024</h2>
+        </div>
+        <div class="aside-menu">
+          <div class="container">
+            <div class="row">
+              <aside class="col-md-2">
+                <nav id="nav-elenco" class="nav nav-pills flex-column">
+                  <button id="button-elenco" type="button" data-bs-toggle="tab" data-bs-target="#goleiros" class="nav-link active">Goleiros</button>
+                  <button id="button-elenco" type="button" data-bs-toggle="tab" data-bs-target="#laterais" class="nav-link ">Laterais</button>
+                  <button id="button-elenco" type="button" data-bs-toggle="tab" data-bs-target="#meio-campo" class="nav-link ">Meio Campo</button>
+                  <button id="button-elenco" type="button" data-bs-toggle="tab" data-bs-target="#atacantes" class="nav-link ">Atacantes</button>
+                </nav>
+              </aside>
+              <div class="col-md-10">
+                <div class="tab-content">
+                  <div class="tab-pane active" id="goleiros">
+                    <div class="row">
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2022/04/marcos_felipe-2-215x230.png" alt="Marcos Felipe">
+                      </div>
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2021/08/danilo_fernandes-1-215x230.png" alt="Danilo Fernandes">
+                      </div>
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2023/07/FC7A6918-copy-215x230.png" alt="Adriel">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="laterais">
+                    <div class="row">
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2024/01/IMG_0347-215x230.png" alt="">
+                      </div>
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2023/07/site_g-215x230.png" alt="">
+                      </div>
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2023/08/FC7A8382-copiar-1-215x230.png" alt="">
+                      </div>
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2023/01/cicinho-2-215x230.png" alt="cicinho">
+                      </div>
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2022/03/ryan-1-215x230.png" alt="ryan">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="meio-campo">
+                    <div class="row">
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2022/01/rezende-2-215x230.png" alt="rezende">
+                      </div>
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2024/01/DSC06375-1-215x230.png" alt="">
+                      </div>
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2023/02/cauly-215x230.png" alt="cauly">
+                      </div>
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2024/01/everton-ribeiro-215x230.png" alt="Everton Ribeiro">
+                      </div>
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2023/03/thaciano-215x230.png" alt="thaciano">
+                      </div>
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2024/01/OF9A5868-1-215x230.png" alt="">
+                      </div>
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2023/03/yago_felipe-215x230.png" alt="">
+                      </div>
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2022/04/acevedo-215x230.png" alt="acevedo">
+                      </div>
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2023/09/FC7A9938-copy-1-215x230.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="atacantes">
+                    <div class="row">
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2024/02/DSC06827-215x230.png" alt="">
+                      </div>
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2023/04/ademir-215x230.png" alt="ademir">
+                      </div>
+                      <div id="contono" class="col-md-3 col-sm-1 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2022/04/everaldo-1-215x230.png" alt="everaldo">
+                      </div>
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2022/04/biel-215x230.png" alt="">
+                      </div>
+                      <div id="contono" class="col-md-3 mb-5">
+                        <img src="https://esporteclubebahia.b-cdn.net/wp-content/uploads/2023/07/FC7A8458-215x230.png" alt="">
+                      </div>
+                </div>
+              </div>
+             </div>
+          </div>
+        </div>
+    </section>
+    <section id="formulario" class="mb-5">
+      <div class="container">
+        <span id="line"></span>
+        <h2 class="text-center text-white fs-1 mb-5">Sejá sócio</h2>
+        <h3 class="text-center text-white mb-5">Preencha o formulário e entraremos em contato</h3>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <form>
+              
+              <label class="text-white" for="nome">Nome completo</label>
+              <input class="form-control mb-3" type="text" id="nome">
+
+              <label class="text-white" for="email">E-mail</label>
+              <input class="form-control mb-3" type="email" name="email" id="email">
+              
+              <label class="text-white" for="telefone">Telefone</label>
+              <input class="form-control mb-3" type="tel" name="tel" id="telefone">
+              <button class="form-control mt-3" type="submit">Enviar</button>
+          </form>
+          </div>
+      </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
